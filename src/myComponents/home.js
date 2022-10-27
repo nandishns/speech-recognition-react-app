@@ -1,10 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export function Home() {
+export function Home(props) {
+      
+  
   return (
     <>
-      <section style={{ backgroundColor: "#19447D",fontFamily: '"Lato", sans-serif'  }}>
+      <section
+        style={{ backgroundColor: "#19447D", fontFamily: '"Lato", sans-serif' }} 
+      >
         <center>
           {" "}
           <div className="p-0 m-0 ">
@@ -16,10 +20,10 @@ export function Home() {
               loop=""
               autoPlay=""
             />
-          </div>{" "}
+          </div>
         </center>
-        <div className="d-flex  p-5">
-          <div className="container">
+        <div className=" d-flex p-5" id="content">
+          <div className="container " id="hide">
             <lottie-player
               src="https://assets7.lottiefiles.com/packages/lf20_M9p23l.json"
               background="transparent"
@@ -51,10 +55,9 @@ export function Home() {
             </p>
           </div>
         </div>
-        <div className="d-flex">
+        <div className="d-flex " id="flex-box">
           <div
             className="container"
-           
             style={{
               boxShadow: "rgba(246, 246, 246, 0.35) 0px 5px 15px",
               margin: 10,
@@ -71,11 +74,7 @@ export function Home() {
               autoPlay=""
             />
             <Link style={{ textDecoration: "none" }} to="/speechToText">
-              
-              <h4 className="text-white m-3 text-center p-2">
-                
-                Speech to text
-              </h4>
+              <h4 className="text-white m-3 text-center p-2">Speech to text</h4>
             </Link>
           </div>
           <div

@@ -4,7 +4,7 @@ The speech to text system works with a speech recognition system; which recogniz
 <strong> Text-to-speech <strong> has additonal features viz., word count, character count, minutes read and preview section. <br>
 It also has a voice assistant which is working with few commands for now, will make it better in upcoming days.
 <br> #reactjs #reactHooks #reactRouterDom <br>
-The App is hosted here : https://zingy-axolotl-6fff40.netlify.app/
+The App is hosted here : https://react-speech.netlify.app/
 
 Kindly give feedback in contact section of above link :)
 
